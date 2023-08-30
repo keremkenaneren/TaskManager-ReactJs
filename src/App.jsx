@@ -27,7 +27,7 @@ function App() {
 
     return (
         <div>
-            <h1 className='text-6xl font-bold my-6' >--- Please add task ---</h1>
+            <h1 className='text-6xl font-bold my-6' > Please add task </h1>
             <TaskCreate onCreate={createTask} />
             <h2 className='text-6xl font-semibold my-6'>Tasks</h2>
             <TaskList tasks={tasks} del={deleteTask} />
