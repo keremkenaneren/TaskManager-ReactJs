@@ -18,12 +18,13 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
+ body {
   margin: auto;
-  display: flex;
-  /* min-width: 320px;
-  min-height: 100vh; */
+  /*display: flex;*/
+  /*min-width: 320px;*/
+  /*min-height: 100vh;*/
 }
+
 
 button {
   border-radius: 8px;
