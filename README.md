@@ -7,4 +7,4 @@ projeyi çalıştırmak için 2 terminal açıp
 
 komutlarını yazıp projeyi etkinleştirebilirsiniz
 
-- bu projemde contextApi mantığını uygulamaya çalıştım. 
+- bu projemde **contextApi** mantığını uygulamaya çalıştım. 
