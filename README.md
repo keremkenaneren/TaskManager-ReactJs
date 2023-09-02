@@ -1,5 +1,5 @@
 # TaskManager React + Vite 
-## + TailwindCSS
+## + TailwindCSS + Json Server
 
 projeyi çalıştırmak için 2 terminal açıp 
 - ilk terminale -  `npm run dev`
