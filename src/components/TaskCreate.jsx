@@ -1,6 +1,9 @@
-import {useState} from "react";
+import {useContext, useState} from "react";
+import TasksContext from "../context/Task.jsx";
 
 function TaskCreate({onCreate}) {
+
+    const {createTask} = useContext(TasksContext)
 
     const [title, setTitle] = useState("");
     const [desc, setDesc] = useState("");
@@ -15,7 +18,8 @@ function TaskCreate({onCreate}) {
 
     const submit = (e) => {
         e.preventDefault()
-        onCreate(title, desc);
+        // onCreate(title, desc);
+        createTask(title, desc)
         setTitle("")
         setDesc("")
     }

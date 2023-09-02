@@ -1,8 +1,13 @@
-function TaskUI({task , onDelete}) {
-    console.log(task)
+import {useContext} from "react";
+import TasksContext from "../context/Task.jsx";
 
+function TaskUI({task}) {
+
+    const {deleteTask} = useContext(TasksContext)
+    
     const clickDelete = () => {
-        onDelete(task.id)
+        // onDelete(task.id)
+        deleteTask(task.id)
     }
 
     return (
